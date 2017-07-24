@@ -21,23 +21,34 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class = "container">
-	<div class = "box">
-			<img src="<?php echo WP_UPLOAD_SUBDIR_URL.""."logo.jpg";?>" class="logo"/>
-		
+
+
+<div class = "container" >
+
+	<div class = "box box-logo">
+		<img src="<?php echo WP_UPLOAD_SUBDIR_URL.""."logo.jpg";?>" class="logo"/>
 	</div>
+
 	<div class = "box box-navbar"> 
 		<ul>
-			<li><a href="home.html" class = "navbar">HOME</a></li>
-			<li><a href="about.html" class = "navbar">ABOUT</a> </li>
-			<li><a href="portfolio.html" class = "navbar">PORTFOLIO</a></li> 
-			<li><a href="blog.html" class = "navbar">BLOG</a></li>
-			<li><a href="contact.html" class = "navbar">CONTACT</a></li>
+			<li><a href="home.php" class = "navbar-1">HOME</a></li>
+			<li><a href="about.php" class = "navbar">ABOUT</a> </li>
+			<li><a href="portfolio.php" class = "navbar">PORTFOLIO</a></li> 
+			<li><a href="blog.php" class = "navbar">BLOG</a></li>
+			<li><a href="contact.php" class = "navbar">CONTACT</a></li>
 		</ul>
 	</div>
 
+	<div class = "box box-language">
+		<ul>
+			<li><a href="English.php">ENGLISH</a></li>
+			<li>|</li>
+			<li><a href="Chinese.php">中文</a></li>
+		</ul>
 	</div>
+
 </div>
+
 <div id="page" class="site">
 <div id="content" class="site-content">
 

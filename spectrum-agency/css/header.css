@@ -1,32 +1,60 @@
 .container{
 	width : 100%;
-	border:1px dotted black;
+	height: 100px;
+	display: inline-flex;
+    flex-wrap: nowrap;
+	border-style: dotted;
+	border-color: orange;
+	justify-content: flex-start;
 }
 
-.container, .box{
-	display: inline-block;
-	text-align: start;
+.container .box{
+	margin-top: 1em;
+	height: 100%;
+
 }
 
-.box:nth-child(1){
-	border:1px dotted red;
-} 
-
-.box:nth-child(2){
-	border:1px dotted black;
-} 
-
-.container,.box, li{	
-	display: inline-block;
+.container .box-logo{
+	float: left;
+	width: 20%;
+	margin-left: 5em;
+	border-style: dotted;
+	border-color: black;
+}
+.container .box-navbar{
+	width: 50%;
+	border-style: dotted;
+	border-color: red;
+	white-space: nowrap;
 }
 
-.box, .site-header, .logo {
-	max-width:30%;
-	height: auto;
+.container .box-language{
+	width:20%;
+	border-style: dotted;
+	border-color: green;
 }
 
-img{
-	border-width:1px;
- 	border-style:dotted;
- 	border-color:black;
+.container .box-navbar ul li{	
+	display: inline-flex;
+	float: left;
+	margin-top: 0em;
+}
+
+.container .box-navbar .navbar-1{	
+	margin-right: 0em;
+	margin-left: 0em;
+}
+
+.container .box-navbar .navbar{	
+	margin-right: 0em;
+	margin-left: 0em;
+}
+.container .box-language ul li{	
+	vertical-align: top;
+	display: inline-flex;
+	float: left;
+}
+
+
+div{
 }
