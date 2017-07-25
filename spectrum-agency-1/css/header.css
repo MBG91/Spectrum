@@ -1,0 +1,48 @@
+/*Font*/
+@font-face{
+    font-family:BR;
+    src:url("BRYANTPRO-REGULAR.OTF");
+}
+@font-face{
+    font-family:FL;
+    src:url("Flatland-Regular");
+}
+
+
+/*NAVIGATION*/
+.navbar-default{
+    background: #FFFF; !important;
+    background-image: none;
+}
+.navbar{
+    #background-color:white !important;
+    text-transform: uppercase;
+    font-family:BR;
+    font-size: 18px;
+    line-height: 12px;
+    font-weight: 2000;
+    letter-spacing: 1px;
+}
+
+.navbar a {
+    color:black !important;
+    opacity: 1;
+}
+.navbar a:hover {
+    opacity: 1;
+    background-color: transparent !important;    
+}
+
+/*space between nave */
+.navbar-nav > li.nav-item {
+    display:inline;
+    padding-right: 60px;
+}
+
+/*Move the navbar item in middle*/
+.col-md-8 {
+    display: inline-flex;
+    float:left;
+    margin-top: 1.5em;
+}
+
