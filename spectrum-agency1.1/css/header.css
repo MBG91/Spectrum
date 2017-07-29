@@ -1,0 +1,35 @@
+/*Font*/
+@font-face{
+    font-family:BR;
+    src:url("BRYANTPRO-REGULAR.OTF");
+}
+@font-face{
+    font-family:FL;
+    src:url("Flatland-Regular");
+}
+
+
+/*NAVIGATION*/
+
+.navbar-default{
+    background: #FFF; !important;
+    background-image: none;
+    text-transform: uppercase;
+    font-family:BR;
+    font-size: 18px;
+    line-height: 12px;
+    font-weight: 2000;
+    letter-spacing: 1px;  
+}
+
+.navbar-default a {
+    color:black !important;
+    opacity: 1;
+}
+
+
+.row {
+margin-bottom: 1.5em;
+}
+
+
